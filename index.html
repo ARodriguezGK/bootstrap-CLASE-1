@@ -1,12 +1,166 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boostrap</title>
+    <title>Restaurante los picapiedras</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="descripcion" content="practica con bootstarp">
+
+    <!-- Estilos de boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
+
 <body>
-    
+
+    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ordena en linea</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Trabaja con nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true">Reserva</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- el container no agarra toda la panatalla -->
+    <!-- container-fluid si toma toda la pnatalla -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iure asperiores corporis
+                    necessitatibus, ipsa dignissimos quos corrupti magnam, consequuntur incidunt expedita officia
+                    nostrum nemo sit tempore praesentium voluptate sint at!
+                    Expedita dicta placeat nobis distinctio asperiores dolor vel totam! Rerum, pariatur ex officiis
+                    animi nesciunt suscipit hic veritatis. Est sequi quod qui saepe odio a illum, alias incidunt
+                    doloribus ab.
+                    Excepturi, pariatur explicabo. Sunt fugiat a iste. Doloremque nisi, fugit illo harum atque eum
+                    pariatur dignissimos repellendus deleniti vitae accusamus nostrum. Repellat hic atque maiores dolore
+                    vero dignissimos voluptatibus autem?</p>
+            </div>
+
+            <div class="col-lg-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, consequatur est provident rem veniam
+                    libero, quas molestiae consequuntur nulla placeat deleniti dignissimos eligendi doloribus labore,
+                    dolorem error vitae asperiores exercitationem?
+                    Consectetur, ipsa. Cumque, sed. Dolor tempora libero ullam nulla a aut veritatis ex sunt excepturi
+                    quaerat, blanditiis impedit illo natus deserunt similique itaque, voluptates est quod labore
+                    incidunt? Voluptatibus, veritatis!
+                    Ea dignissimos odio soluta consequatur modi deserunt, perspiciatis quia corrupti quibusdam quaerat
+                    tenetur deleniti pariatur vitae iste sit ad. At, animi. Porro esse laborum facilis corrupti
+                    consectetur, accusantium animi earum.
+                    Veritatis vitae ipsum cum eius dignissimos cumque, accusantium soluta facilis corrupti? Quod
+                    reprehenderit praesentium sint exercitationem laborum, quia fugit placeat vel iste quas fuga, odit
+                    incidunt consectetur? Consequatur, rerum? Autem.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <img src="img/Restaurante-Los-Picapiedra-Torremolinos.jpg" alt="">
+
+        </div>
+
+        <div class="col-lg-8">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iure autem deleniti pariatur! Itaque quo
+                aliquam suscipit molestiae, est perferendis provident, minus dolorum sed officiis explicabo hic,
+                voluptatem accusantium tempora?
+                Est, blanditiis, dolor similique quae voluptatibus deleniti necessitatibus deserunt culpa, voluptas sunt
+                enim laborum et nihil voluptates quod libero. Ducimus enim assumenda alias molestiae quisquam ratione
+                labore temporibus architecto amet.
+                Expedita nulla corrupti eaque minima odit, earum nostrum atque, ex saepe, ad velit deserunt eius. Vero
+                at, animi magni culpa sunt rem voluptate totam consequuntur nostrum alias esse recusandae id!
+                Temporibus, ullam unde ipsa repellendus porro voluptatem, laudantium, voluptatum fuga voluptas repellat
+                rem doloribus explicabo sed quis minus? Earum corrupti itaque labore recusandae adipisci nulla
+                aspernatur quidem eum facilis doloribus.</p>
+            <a href="#" class="btn btn-warning">Ordena ya</a>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="img/call_center.webp" class="card-img-top" alt="llamanos para ordenar en linea">
+                    <div class="card-body">
+                        <h5 class="card-title">Llamanos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the cards content.</p>
+                        <a href="#" class="btn btn-success">Llamar en whatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="img/call_center.webp" class="card-img-top" alt="llamanos para ordenar en linea">
+                    <div class="card-body">
+                        <h5 class="card-title">Llamanos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the cards content.</p>
+                        <a href="#" class="btn btn-success">Llamar en whatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="img/call_center.webp" class="card-img-top" alt="llamanos para ordenar en linea">
+                    <div class="card-body">
+                        <h5 class="card-title">Llamanos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the cards content.</p>
+                        <a href="#" class="btn btn-success">Llamar en whatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="img/call_center.webp" class="card-img-top" alt="llamanos para ordenar en linea">
+                    <div class="card-body">
+                        <h5 class="card-title">Llamanos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the cards content.</p>
+                        <a href="#" class="btn btn-success">Llamar en whatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- mx-auto sirve para centrar -->
+        <footer class="navbar bg-dark">
+            <p class="text-light mx-auto">Derechos Reservados. &copy; Ricardo De Paz - 2026 - Dedicado a Nosequien de
+                Nosedonde</p>
+        </footer>
+
+
+
+        <!-- scirpt de bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous">
+        </script>
 </body>
+
 </html>
